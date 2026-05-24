@@ -2,15 +2,12 @@ const express = require('express');
 const app = express();
 app.use(express.json());
 
-// Database lisensi (tambah UserId pembeli di sini)
 const licenses = {
-const licenses = {
-    "8930774745": { active: true, expiry: null },        // permanent
-    "10230287186": { active: true, expiry: null },       // permanent
-    "8650987998": { active: true, expiry: 1748217600 },  // trial, isi timestamp
+    "8930774745": { active: true, expiry: null },
+    "10230287186": { active: true, expiry: null },
+    "8650987998": { active: true, expiry: 1748217600 },
 };
 
-// Secret key agar tidak bisa diakses sembarangan
 const SECRET_KEY = "TMLWK_SECRET_8930774745";
 
 app.get('/check', (req, res) => {
