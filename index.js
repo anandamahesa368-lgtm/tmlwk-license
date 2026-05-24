@@ -5,7 +5,7 @@ app.use(express.json());
 const licenses = {
     "8930774745": { active: true, expiry: null },
     "10230287186": { active: true, expiry: null },
-    "8650987998": { active: true, expiry: 1748217600 },
+    "8650987998": { active: true, expiry: null},
 };
 
 const SECRET_KEY = "TMLWK_SECRET_8930774745";
