@@ -4,10 +4,10 @@ app.use(express.json());
 
 // Database lisensi (tambah UserId pembeli di sini)
 const licenses = {
-    // "UserId": { active: true, expiry: null }  // null = permanent
-    // Contoh:
-    // "10230287186": { active: true, expiry: null },
-    // "123456789": { active: true, expiry: 1716393600 }, // unix timestamp
+const licenses = {
+    "8930774745": { active: true, expiry: null },        // permanent
+    "10230287186": { active: true, expiry: null },       // permanent
+    "8650987998": { active: true, expiry: 1748217600 },  // trial, isi timestamp
 };
 
 // Secret key agar tidak bisa diakses sembarangan
