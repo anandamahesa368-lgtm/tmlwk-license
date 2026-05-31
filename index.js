@@ -6,7 +6,7 @@ const licenses = {
     "8930774745": { active: true, expiry: null },
     "10230287186": { active: true, expiry: null },
     "8650987998": { active: true, expiry: null},
-    "9189771077": { active: true, expiry: null},
+    "9091575532": { active: true, expiry: null},
 };
 
 const SECRET_KEY = "TMLWK_SECRET_8930774745";
